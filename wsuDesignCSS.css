@@ -1,0 +1,136 @@
+.wsuNavGreyBackground {
+    background-color: #23282B !important;
+}
+
+.whiteText {
+    color: white !important;
+}
+
+.wsuLogoNav {
+    width: 85px !important;
+    height: 85px !important;
+}
+
+.customSearchButtonCSS {
+    border: 1px solid #981E32;
+    background-color: #23282B ;
+    
+}
+
+.customSearchButtonCSS:hover  {
+    border: 1px solid #981E32 !important;
+    background-color: #981E32 !important;
+    transition: background-color .4s linear !important;
+}
+
+.form-control:focus {
+    border: 1px solid #981E32 !important;
+    
+}
+
+.form-control {
+    transition: width 2s !important;
+    transition: width 2s !important;
+}
+
+@media only screen and (max-width: 640px) {
+    .navbarBrandText {
+       font-size: 21px; 
+    }
+    .wsuLogoNav {
+        width: 70px !important;
+        height: 70px !important;
+    }
+   
+}
+
+@media only screen and (max-width: 580px) {
+    .navbarBrandText {
+       font-size: 18px !important; 
+    }
+    .wsuLogoNav {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+
+.backgroundCarouselImage1 {
+    height: 100%;
+    background: url(wsuEngineeringPicture.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* opacity: .35 !important; */
+}
+
+.backgroundCarouselImage2 {
+    height: 100%;
+    background: url(Roads_to_Pullman.JPG.jpg) no-repeat center center fixed ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* opacity: .35 !important; */
+}
+
+.backgroundCarouselImage3 {
+    height: 100%;
+    background: url(groupEngineeringPicture.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    /* opacity: .35 !important; */
+}
+
+.carousel-inner {
+    height: 75%;
+}
+
+#blackTextPrimary {
+    color: black;
+    font-size: 60px;
+    /* padding: 4% 5.5%; */
+    
+}
+
+.textDiv {
+    background: rgba(255, 255, 255, 0.73);
+    height: 100%;
+    padding: 8% 10.5%;
+    margin: 0 auto;
+}
+
+#mainCarouselParagraph {
+    font-size: 25px;
+    padding-top: 2%;
+    
+}
+
+.customCarouselButtonCSS {
+    border: 1px solid #981E32;
+    background-color: transparent !important;
+    color: black !important;
+    
+    font-size: 25px;
+    padding: 1%;
+}
+
+.customCarouselButtonCSS:hover  {
+    border: 1px solid #981E32 !important;
+    background-color: #981E32 !important;
+    color: white !important;
+    transition: background-color .4s linear !important;
+}
+
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+   #mainCarouselParagraph {
+
+   }
+}
+
