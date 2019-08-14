@@ -124,7 +124,7 @@
     transition: background-color .4s linear !important;
 }
 
-@media (max-width: @screen-xs) {
+/*@media (max-width: @screen-xs) {
     body{font-size: 10px;}
 }
 
@@ -132,8 +132,8 @@
    #mainCarouselParagraph {
 
    }
-}
-
+} */
+ 
 .innerTextDiv { 
     position: absolute;
     top: 50%;
@@ -146,11 +146,11 @@
 }
 
 .leftJumbotronArrow {
-    height: 40px;
-    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
 }
 
 .rightJumbotronArrow {
-    height: 40px;
-    width: 40px;
+    height: 40px !important;
+    width: 40px !important;
 }
