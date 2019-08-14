@@ -145,4 +145,12 @@
     text-align: center;
 }
 
+.leftJumbotronArrow {
+    height: 40px;
+    width: 40px;
+}
 
+.rightJumbotronArrow {
+    height: 40px;
+    width: 40px;
+}
