@@ -96,10 +96,11 @@
 }
 
 .textDiv {
-    background: rgba(255, 255, 255, 0.73);
+    background: rgba(255, 255, 255, 0.87);
     height: 100%;
-    padding: 8% 10.5%;
+    padding: 4% 10.5%;
     margin: 0 auto;
+    position: relative;
 }
 
 #mainCarouselParagraph {
@@ -112,7 +113,6 @@
     border: 1px solid #981E32;
     background-color: transparent !important;
     color: black !important;
-    
     font-size: 25px;
     padding: 1%;
 }
@@ -133,4 +133,16 @@
 
    }
 }
+
+.innerTextDiv { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerJumbotronButtonMiddle {
+    text-align: center;
+}
+
 
