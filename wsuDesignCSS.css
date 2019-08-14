@@ -32,7 +32,7 @@
     transition: width 2s !important;
     transition: width 2s !important;
 }
-
+/*
 @media only screen and (max-width: 640px) {
     .navbarBrandText {
        font-size: 21px; 
@@ -40,6 +40,12 @@
     .wsuLogoNav {
         width: 70px !important;
         height: 70px !important;
+    }
+    .blackTextPrimary {
+        font-size: 12px;
+    }
+    .mainCarouselParagraph {
+        font-size: 12px;
     }
    
 }
@@ -52,8 +58,14 @@
         width: 60px !important;
         height: 60px !important;
     }
+    .blackTextPrimary {
+        font-size: 12px;
+    }
+    .mainCarouselParagraph {
+        font-size: 12px;
+    }
 }
-
+*/
 .backgroundCarouselImage1 {
     height: 100%;
     background: url(wsuEngineeringPicture.jpg) no-repeat center center fixed; 
@@ -154,3 +166,91 @@
     height: 40px !important;
     width: 40px !important;
 }
+/*
+@media only screen and (max-width: 640px) {
+    .navbarBrandText {
+       font-size: 21px; 
+    }
+    .wsuLogoNav {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .blackTextPrimary {
+        font-size: 12px;
+    }
+    .mainCarouselParagraph {
+        font-size: 12px;
+    }
+   
+}
+
+@media only screen and (max-width: 580px) {
+    .navbarBrandText {
+       font-size: 18px !important; 
+    }
+    .wsuLogoNav {
+        width: 60px !important;
+        height: 60px !important;
+    }
+    #blackTextPrimary {
+        font-size: 50% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 50% !important;
+    }
+}
+*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1500px) { 
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) { 
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navbarBrandText {
+        font-size: 21px; 
+     }
+     .wsuLogoNav {
+         width: 70px !important;
+         height: 70px !important;
+     }
+    #blackTextPrimary {
+        font-size: 150% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 100% !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) { 
+    .navbarBrandText {
+        font-size: 18px !important; 
+     }
+     .wsuLogoNav {
+         width: 60px !important;
+         height: 60px !important;
+     }
+     #blackTextPrimary {
+         font-size: 150% !important;
+     }
+     #mainCarouselParagraph {
+         font-size: 100% !important;
+     }
+     
+}
+
+
+
+
