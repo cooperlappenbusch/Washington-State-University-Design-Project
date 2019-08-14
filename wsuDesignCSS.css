@@ -203,17 +203,53 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1500px) { 
-    
+    .navbarBrandText {
+        font-size: 21px; 
+     }
+     .wsuLogoNav {
+         width: 70px !important;
+         height: 70px !important;
+     }
+    #blackTextPrimary {
+        font-size: 262.5% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 175% !important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) { 
-    
+    .navbarBrandText {
+        font-size: 21px; 
+     }
+     .wsuLogoNav {
+         width: 70px !important;
+         height: 70px !important;
+     }
+    #blackTextPrimary {
+        font-size: 187.5% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 150% !important;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (max-width: 992px) { 
-    
+    .navbarBrandText {
+        font-size: 21px; 
+     }
+     .wsuLogoNav {
+         width: 70px !important;
+         height: 70px !important;
+     }
+    #blackTextPrimary {
+        font-size: 187.5% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 125% !important;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -229,7 +265,7 @@
         font-size: 150% !important;
     }
     #mainCarouselParagraph {
-        font-size: 100% !important;
+        font-size: 130% !important;
     }
 }
 
@@ -243,12 +279,17 @@
          height: 60px !important;
      }
      #blackTextPrimary {
-         font-size: 150% !important;
+         font-size: 135% !important;
      }
      #mainCarouselParagraph {
-         font-size: 100% !important;
+         font-size: 130% !important;
      }
-     
+     .innerTextDiv { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
 
