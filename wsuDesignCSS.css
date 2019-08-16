@@ -113,8 +113,8 @@
 .textDiv {
     background: rgba(255, 255, 255, 0.87);
     height: 100%;
-    padding: 4% 10.5%;
-    margin: 0 auto;
+    padding: 4% 4%;
+    margin: 0px auto;
     position: relative;
 }
 
@@ -125,17 +125,17 @@
 }
 
 .customCarouselButtonCSS {
-    border: 1px solid #981E32;
-    background-color: transparent !important;
-    color: black !important;
+    border: 1px solid whtie;
+    background-color: #981E32 !important;
+    color: white !important;
     font-size: 25px;
     padding: 1%;
 }
 
 .customCarouselButtonCSS:hover  {
     border: 1px solid #981E32 !important;
-    background-color: #981E32 !important;
-    color: white !important;
+    background-color: transparent!important;
+    color: black !important;
     transition: background-color .4s linear !important;
 }
 
@@ -154,6 +154,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 40px;
 }
 
 .centerJumbotronButtonMiddle {
@@ -205,9 +206,24 @@
 */
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media only screen and (max-width: 1500px) { 
+@media only screen and (max-width: 1800px) { 
     .navbarBrandText {
         font-size: 21px; 
+     }
+     .wsuLogoNav {
+         width: 70px !important;
+         height: 70px !important;
+     }
+    #blackTextPrimary {
+        font-size: 262.5% !important;
+    }
+    #mainCarouselParagraph {
+        font-size: 175% !important;
+    }
+}
+@media only screen and (max-width: 1500px) { 
+    .navbarBrandText {
+        font-size: 19px; 
      }
      .wsuLogoNav {
          width: 70px !important;
@@ -224,7 +240,7 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) { 
     .navbarBrandText {
-        font-size: 21px; 
+        font-size: 18px; 
      }
      .wsuLogoNav {
          width: 70px !important;
@@ -235,6 +251,13 @@
     }
     #mainCarouselParagraph {
         font-size: 150% !important;
+    }
+    .innerTextDiv { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%; 
     }
 }
 
@@ -252,6 +275,13 @@
     }
     #mainCarouselParagraph {
         font-size: 125% !important;
+    }
+    .innerTextDiv { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%; 
     }
 }
 
@@ -275,7 +305,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 576px) { 
     .navbarBrandText {
-        font-size: 18px !important; 
+        font-size: 15px !important; 
      }
      .wsuLogoNav {
          width: 60px !important;
@@ -292,8 +322,153 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 70%; 
     }
 }
+
+@media only screen and (max-width: 500px) { 
+    .navbarBrandText {
+        font-size: 15px !important; 
+        padding: 0;
+        margin: 0;
+     }
+     .wsuLogoNav {
+        width: 0 !important;
+        height: 0 !important;
+     }
+     #blackTextPrimary {
+         font-size: 135% !important;
+     }
+     #mainCarouselParagraph {
+         font-size: 130% !important;
+     }
+     .innerTextDiv { 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%; 
+    }
+    
+}
+
+@media only screen and (max-height: 600px) and (max-width: 1250px) {
+    .textDiv {
+        height: 400px;
+    }
+    .carousel-inner {
+        height: 400px !important;
+    }
+    .navbarBrandText {
+        font-size: 14px !important; 
+        padding: 0;
+        margin: 0;
+     }
+     .wsuLogoNav {
+        width: 60px !important;
+        height: 60px !important;
+     }
+     #blackTextPrimary {
+         font-size: 30px !important;
+     }
+     #mainCarouselParagraph {
+         font-size: 20px !important;
+     }
+     .innerTextDiv { 
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%; 
+        padding-bottom: 50px;
+    }
+
+    .customCarouselButtonCSS {
+        border: 1px solid whtie;
+        background-color: #981E32 !important;
+        color: white !important;
+        font-size: 20px;
+        padding: 1%;
+    }
+    
+    .customCarouselButtonCSS:hover  {
+        border: 1px solid #981E32 !important;
+        background-color: transparent!important;
+        color: black !important;
+        transition: background-color .4s linear !important;
+    }
+
+    .leftJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+    .rightJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+}
+
+@media only screen and (max-height: 600px) and (max-width: 650px) {
+    .textDiv {
+        height: 400px;
+    }
+    .carousel-inner {
+        height: 400px;
+    }
+    .navbarBrandText {
+        font-size: 14px !important; 
+        padding: 0;
+        margin: 0;
+     }
+     .wsuLogoNav {
+        width: 0 !important;
+        height: 0 !important;
+     }
+     #blackTextPrimary {
+         font-size: 20px !important;
+     }
+     #mainCarouselParagraph {
+         font-size: 14px !important;
+     }
+     .innerTextDiv { 
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%; 
+        padding-bottom: 50px;
+    }
+
+    .customCarouselButtonCSS {
+        border: 1px solid whtie;
+        background-color: #981E32 !important;
+        color: white !important;
+        font-size: 20px;
+        padding: 1%;
+    }
+    
+    .customCarouselButtonCSS:hover  {
+        border: 1px solid #981E32 !important;
+        background-color: transparent!important;
+        color: black !important;
+        transition: background-color .4s linear !important;
+    }
+
+    .leftJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+    .rightJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+}
+
+
 
 .blueBackgroundTest {
     background-color: green;
@@ -341,8 +516,9 @@
     height: 100%;
     background:#fff;
     box-sizing: border-box;
-    box-shadow: 0 5px 20px rgba(35, 40, 43, .5);
-    margin-top: 45px;
+    /* box-shadow: 0 5px 20px rgba(35, 40, 43, .5); */
+    /* margin-top: 45px; */
+    
 }
 
 .eventsCalendarDiv .date {
@@ -442,6 +618,9 @@
 }
 
 
+.wsuNavLightBackground {
+    background-color: white !important;
+}
 /*
 .eventsCalendarDiv {
     width: 80%;
