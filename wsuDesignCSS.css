@@ -12,6 +12,7 @@
     height: 85px !important;
 }
 
+  
 .customSearchButtonCSS {
     border: 1px solid #981E32;
     background-color: #23282B ;
@@ -307,6 +308,7 @@
     text-align: left;
     
 }
+
 .defaultParagraphStyling {
     padding: 10px 15%;
     font-size: 20px;
@@ -332,8 +334,8 @@
     justify-content: center;
     /*align-items: center; */
     height: 50%;
-    
 }
+
 .eventsCalendarDiv {
     width:300px;
     height: 100%;
@@ -357,6 +359,7 @@
     height: 35px;
     color: black;
 }
+
 .eventsCalendarDiv .date div.day {
     font-weight: 700;
 }
@@ -388,19 +391,28 @@
     text-align: center;
     font-size: 18px;
 }
+
 .sideTextHeadingNews {
-    padding: 18px 0 5px 0;
+    padding: 0 auto;
     text-align: center;
     font-size: 35px;
-    margin-top: 35px;
+    margin-top: 50px;
 }
+
 .mainNewsList {
-    list-style-type: none;
-    margin-top: 5%;
+    position:relative;
+    display: inline-block;  
+    list-style: none;
+    width:100%;
+    text-align: center;
+    margin: auto;
+    padding: 15px 0px;
 }
+
 .mainNewsList li {
-    padding: 2%;
+    padding: 2% 0;
 }
+
 .mainNewsList a {
     color: black;
     font-size: 22px;
@@ -424,9 +436,12 @@
 .footerTextSide {
     padding: 0px 50px 0px 50px;
 }
+
 .footerMargin {
     margin-top: 25px;
 }
+
+
 /*
 .eventsCalendarDiv {
     width: 80%;
