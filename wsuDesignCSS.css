@@ -424,6 +424,9 @@
 .footerTextSide {
     padding: 0px 50px 0px 50px;
 }
+.footerMargin {
+    margin-top: 25px;
+}
 /*
 .eventsCalendarDiv {
     width: 80%;
