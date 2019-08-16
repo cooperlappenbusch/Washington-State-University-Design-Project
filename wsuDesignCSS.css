@@ -352,12 +352,12 @@
     
 }
 
-@media only screen and (max-height: 600px) and (max-width: 1250px) {
+@media only screen and (max-height: 650px) /*and (max-width: 1920px)*/ {
     .textDiv {
-        height: 400px;
+        height: 550px;
     }
     .carousel-inner {
-        height: 400px !important;
+        height: 550px !important;
     }
     .navbarBrandText {
         font-size: 14px !important; 
@@ -374,6 +374,70 @@
      #mainCarouselParagraph {
          font-size: 20px !important;
      }
+     .innerTextDiv { 
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30%; 
+        padding-bottom: 50px;
+    }
+    
+    .customCarouselButtonCSS {
+        border: 1px solid whtie;
+        background-color: #981E32 !important;
+        color: white !important;
+        font-size: 20px;
+        padding: 1%;
+    }
+    
+    .customCarouselButtonCSS:hover  {
+        border: 1px solid #981E32 !important;
+        background-color: transparent!important;
+        color: black !important;
+        transition: background-color .4s linear !important;
+    }
+
+    .leftJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+    .rightJumbotronArrow {
+        height: 20px !important;
+        width: 20px !important;
+    }
+    
+}
+
+@media only screen and (max-height: 750px) and (max-width: 1350px) {
+    .textDiv {
+        height: 550px;
+    }
+
+    .carousel-inner {
+        height: 550px !important;
+    }
+
+    .navbarBrandText {
+        font-size: 14px !important; 
+        padding: 0;
+        margin: 0;
+     }
+
+     .wsuLogoNav {
+        width: 60px !important;
+        height: 60px !important;
+     }
+
+     #blackTextPrimary {
+         font-size: 30px !important;
+     }
+
+     #mainCarouselParagraph {
+         font-size: 20px !important;
+     }
+
      .innerTextDiv { 
         position: absolute;
         top: 55%;
@@ -410,12 +474,12 @@
     
 }
 
-@media only screen and (max-height: 600px) and (max-width: 650px) {
+@media only screen and (max-height: 650px) and (max-width: 650px) {
     .textDiv {
-        height: 400px;
+        height: 550px;
     }
     .carousel-inner {
-        height: 400px;
+        height: 550px !important;
     }
     .navbarBrandText {
         font-size: 14px !important; 
@@ -427,10 +491,10 @@
         height: 0 !important;
      }
      #blackTextPrimary {
-         font-size: 20px !important;
+         font-size: 25px !important;
      }
      #mainCarouselParagraph {
-         font-size: 14px !important;
+         font-size: 18px !important;
      }
      .innerTextDiv { 
         position: absolute;
