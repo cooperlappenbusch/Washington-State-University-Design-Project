@@ -125,7 +125,7 @@
 }
 
 .customCarouselButtonCSS {
-    border: 1px solid whtie;
+    border: 1px solid #981E32 ;
     background-color: #981E32 !important;
     color: white !important;
     font-size: 25px;
@@ -602,10 +602,11 @@
 .eventsCalendarDiv {
     width:300px;
     height: 100%;
-    background:#fff;
+    background:#23282B;
     box-sizing: border-box;
     /* box-shadow: 0 5px 20px rgba(35, 40, 43, .5); */
     /* margin-top: 45px; */
+    color: white;
     
 }
 
@@ -621,7 +622,7 @@
     justify-content: center;
     align-items: center;
     height: 35px;
-    color: black;
+    color: white;
 }
 
 .eventsCalendarDiv .date div.day {
@@ -630,7 +631,7 @@
 
 .eventsCalendarDiv .date div.day:first-child,
 .eventsCalendarDiv .date div.day:nth-child(7n + 1) {
-    color: black;
+    color: white;
     font-weight: 700;
 }
 
@@ -662,6 +663,7 @@
     font-size: 27px;
     margin-top: 50px;
     font-weight: 600;
+    color: white;
 }
 
 .mainNewsList {
@@ -705,7 +707,8 @@
 }
 
 .footerMargin {
-    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 2px solid #981E32;
 }
 
 
@@ -722,12 +725,13 @@
 }
 .rightColumnDivMainPage {
     padding: 3%;
+    background-color: #23282B;
+    border-top: 2px outset #981E32;
+    border-left: 4px outset #981E32;
 }
 /*
 .crazyBackgroundAttempt {
     background: linear-gradient(-90deg, #23282B 40%, white 40%);
-    
-
 }
 */
 
