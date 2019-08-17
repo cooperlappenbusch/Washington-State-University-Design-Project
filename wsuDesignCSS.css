@@ -220,6 +220,11 @@
     #mainCarouselParagraph {
         font-size: 175% !important;
     }
+    .mainTextHeading {
+        padding: 32px 15% 0 15%;
+        text-align: left;
+        font-size: 45px !important;
+    }
 }
 @media only screen and (max-width: 1500px) { 
     .navbarBrandText {
@@ -234,6 +239,11 @@
     }
     #mainCarouselParagraph {
         font-size: 175% !important;
+    }
+    .mainTextHeading {
+        padding: 32px 15% 0 15%;
+        text-align: left;
+        font-size: 35px !important;
     }
 }
 
@@ -283,6 +293,11 @@
         transform: translate(-50%, -50%);
         width: 70%; 
     }
+    .mainTextHeading {
+        padding: 32px 15% 0 15%;
+        text-align: left;
+        font-size: 32px !important;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -300,6 +315,7 @@
     #mainCarouselParagraph {
         font-size: 130% !important;
     }
+    
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -382,7 +398,7 @@
         width: 30%; 
         padding-bottom: 50px;
     }
-    
+
     .customCarouselButtonCSS {
         border: 1px solid whtie;
         background-color: #981E32 !important;
@@ -471,6 +487,11 @@
         height: 20px !important;
         width: 20px !important;
     }
+    .mainTextHeading {
+        padding: 32px 15% 0 15%;
+        text-align: left;
+        font-size: 35px !important;
+    }
     
 }
 
@@ -530,6 +551,8 @@
         width: 20px !important;
     }
     
+    
+
 }
 
 
@@ -543,17 +566,18 @@
 }
 
 .mainTextHeading {
-    padding: 30px 15% 0 15%;
+    padding: 0px 15% 0 15%;
     text-align: left;
-    
+    font-size: 52px;
 }
 
 .defaultParagraphStyling {
     padding: 10px 15%;
     font-size: 20px;
 }
+
 .sideTextHeading {
-    padding: 18px 0 5px 0;
+    padding: 0px 0 5px 0;
     text-align: center;
     font-size: 27px;
 }
@@ -635,8 +659,9 @@
 .sideTextHeadingNews {
     padding: 0 auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 27px;
     margin-top: 50px;
+    font-weight: 600;
 }
 
 .mainNewsList {
@@ -654,13 +679,15 @@
 }
 
 .mainNewsList a {
-    color: black;
-    font-size: 22px;
+    color: #981E32;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .mainNewsList a:hover {
-    color: #981E32;
-    font-size: 22px;
+    color: black;
+    font-size: 20px;
+    transition: color .4s linear;
 }
 
 .blackBackgroundFooter {
@@ -684,6 +711,17 @@
 
 .wsuNavLightBackground {
     background-color: white !important;
+}
+
+#carouselExampleIndicators {
+    opacity: 1 !important;
+}
+
+.leftColumnDivMainPage {
+    padding: 3%;
+}
+.rightColumnDivMainPage {
+    padding: 3%;
 }
 /*
 .eventsCalendarDiv {
