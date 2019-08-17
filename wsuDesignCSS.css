@@ -724,6 +724,14 @@
     padding: 3%;
 }
 /*
+.crazyBackgroundAttempt {
+    background: linear-gradient(-90deg, #23282B 40%, white 40%);
+    
+
+}
+*/
+
+/*
 .eventsCalendarDiv {
     width: 80%;
     height: 300px;
